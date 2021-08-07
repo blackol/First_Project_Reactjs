@@ -24,9 +24,10 @@ const Countries = () => {
             });
             sortedArray.length = rangeValue;
             setSortedData(sortedArray);
-       }
+        };
+       
        sortedCountry();
-    }, [data,playOnce,rangeValue]);
+    }, [data,rangeValue,playOnce]);
 
     return (
         <div className="countries">
