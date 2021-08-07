@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 
 const About = () => {
@@ -6,6 +7,7 @@ const About = () => {
         <div className="about">
             <Navigation/>
             <h1>À propos</h1>
+            <Logo/>
             <br />
             <p> Lorem Ipsum est simplement un texte factice de l'industrie de l'impression 
             et de la composition. Lorem Ipsum est le texte factice standard de l'industrie depuis 
